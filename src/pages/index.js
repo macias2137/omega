@@ -3,33 +3,22 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../styles/index.sass"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <section className="hero is-fullheight-with-navbar">
-      <div className="hero-body">
-        <div className="level">
-          <div className="level-left">
-            <div className="level-item">
-              <div className="container">
-                <h1 className="title has-text-white">Kroplówki</h1>
-                <h3 className="subtitle">Koszalin, Szczecin, Darłowo</h3>
-              </div>
-            </div>
-          </div>
-          <div className="level-right">
-            <div className="level-item">
-              <figure className="image is-3by2">
-                <img src="/kroplowka.jpg" alt="kroplówka" />
-              </figure>
-            </div>
-          </div>
-        </div>
+    <section className="hero landing__hero" id="landingHero">
+      <div className="landing__hero__body">
+        <h1 className="landing__hero__title">Kroplówki</h1>
+        <h3 className="subtitle landing__hero__subtitle">
+          Kroplówki witaminowe w Koszalinie, Szczecinie, Darłowie
+        </h3>
+        <Link to="#" className="button is-primary is-large">
+          Więcej informacji
+        </Link>
       </div>
     </section>
-  </Layout >
+  </Layout>
 )
 
 export default IndexPage
