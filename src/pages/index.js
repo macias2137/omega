@@ -2,21 +2,34 @@ import React from "react"
 import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
+import "../styles/index.sass"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link> <br />
-    <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-  </Layout>
+    <section className="hero is-fullheight-with-navbar">
+      <div className="hero-body">
+        <div className="level">
+          <div className="level-left">
+            <div className="level-item">
+              <div className="container">
+                <h1 className="title has-text-white">Kroplówki</h1>
+                <h3 className="subtitle">Koszalin, Szczecin, Darłowo</h3>
+              </div>
+            </div>
+          </div>
+          <div className="level-right">
+            <div className="level-item">
+              <figure className="image is-3by2">
+                <img src="/kroplowka.jpg" alt="kroplówka" />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </Layout >
 )
 
 export default IndexPage
