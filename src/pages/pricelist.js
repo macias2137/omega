@@ -3,16 +3,15 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import "../styles/faq.sass"
+import "../styles/pricelist.sass"
 
-const Faq = () => (
+const PriceList = () => (
     <Layout>
         <SEO title="Home" />
         <div className="faq">
-            <h1>Czy bić dzieci?</h1>
-            <h2>Odpowiedź nie jest jednoznaczna</h2>
+            Cena kroplówek: 20 zł
         </div>
     </Layout>
 )
 
-export default Faq
+export default PriceList

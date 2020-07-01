@@ -13,7 +13,7 @@ const IndexPage = () => (
         <h3 className="subtitle landing__hero__subtitle">
           Kroplówki witaminowe w Koszalinie, Szczecinie, Darłowie
         </h3>
-        <Link to="#" className="button is-primary is-large">
+        <Link to="/oferta" className="button is-primary is-large">
           Więcej informacji
         </Link>
       </div>

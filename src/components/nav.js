@@ -13,10 +13,10 @@ const Nav = () => {
           <Link to="/oferta">Oferta</Link>
         </li>
         <li>
-          <Link to="/contact">Kontakt</Link>
+          <Link to="/pricelist">Cennik</Link>
         </li>
         <li>
-          <Link to="/faq">FAQ</Link>
+          <Link to="/contact">Kontakt</Link>
         </li>
       </ul>
     </nav>
